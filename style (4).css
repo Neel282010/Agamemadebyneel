@@ -1,0 +1,158 @@
+body {
+    font-size: 15pt;
+    background-color:black;
+}
+#obstacle1{
+  height :20px;
+  width:20px;
+  background-color:red;
+   position: relative;
+   top:200px;
+   left:830px;
+   animation: a 2s infinite linear;
+}
+@keyframes a {
+  0%{
+    left: 830px;                                                           
+  }
+  100%{
+    left: 0px;
+  }
+}
+#obstacle2{
+  height :20px;
+  width:20px;
+  background-color:red;
+   position: relative;
+   top:250px;
+   left:530px;
+   animation: b 2s infinite linear;
+}
+@keyframes b {
+  0%{
+    left: 830px;                                                           
+  }
+  100%{
+    left: 0px;
+  }
+  
+}
+#obstacle3{
+  height :20px;
+  width:20px;
+  background-color:red;
+   position: relative;
+   top:230px;
+   left:530px;
+   animation: e 2s infinite linear;
+}
+@keyframes e {
+  0%{
+    left: 630px;                                                           
+  }
+  100%{
+    left: -200px;
+  }
+}
+#obstacle4{
+  height :20px;
+  width:20px;
+  background-color:red;
+   position: relative;
+   top:275px;
+   left:530px;
+   animation: e 2s infinite linear;
+}
+@keyframes e {
+  0%{
+    left: 530px;                                                           
+  }
+  100%{
+    left: -300px;
+  }
+}
+
+
+#character{
+height: 25px;
+width :25px;
+background-color: blue;
+position: relative;
+top:292px;
+left:0px;
+}
+.animation2{
+  animation: d 500ms;
+}
+@keyframes d{
+  10%{
+    top:350px;
+  }
+  20%{
+    top:350px;
+  } 
+  30%{
+    top:350px;
+  }40%{
+    top:350px;
+  }50%{
+    top:350px;
+  }60%{
+    top:350px;
+  }70%{
+    top:350px;
+  }
+  80%{
+    top:350px;
+  }90%{
+    top:350px;
+  }100%{
+    top:350px;
+  }
+}
+.animation1{
+  animation: c 500ms;
+}
+@keyframes c{
+  10%{
+    top:222.5px;
+  }
+  20%{
+    top:222.5px;
+  } 
+  30%{
+    top:222.5px;
+  }40%{
+    top:222.5px;
+  }50%{
+    top:222.5px;
+  }60%{
+    top:222.5px;
+  }70%{
+    top:222.5px;
+  }
+  80%{
+    top:222.5px;
+  }90%{
+    top:222.5px;
+  }100%{
+    top:222.5px;
+  }
+}
+.up{
+ position: relative;
+  top:400px;
+  height:100px;
+  width:100px;
+  background:black;
+  color:white;
+}
+.down{
+ position: relative;
+  top:400px;
+  right:-140px;
+  height:100px;
+  width:100px;
+  background:black;
+  color:white;
+}
