@@ -1,158 +1,275 @@
+}
 body {
     font-size: 15pt;
-    background-color:black;
-}
-#obstacle1{
-  height :20px;
-  width:20px;
-  background-color:red;
-   position: relative;
-   top:200px;
-   left:830px;
-   animation: a 2s infinite linear;
-}
-@keyframes a {
-  0%{
-    left: 830px;                                                           
-  }
-  100%{
-    left: 0px;
-  }
-}
-#obstacle2{
-  height :20px;
-  width:20px;
-  background-color:red;
-   position: relative;
-   top:250px;
-   left:530px;
-   animation: b 2s infinite linear;
+    background-color: orangeblack;
+    animation: b 30s infinite linear;
 }
 @keyframes b {
-  0%{
-    left: 830px;                                                           
+  20%{
+    background-color:red;
+  }40%{
+    background-color: orange;
+  }60%{
+    background-color: green;
+  }
+  80%{
+    background-color: blue;
   }
   100%{
-    left: 0px;
+    background-color: indigo;
+  }
+}
+#character{
+  height: 30px;
+  width: 40px;
+  position: relative;
+  top: 320px;
+}
+
+.animation2{
+  animation: a2 600ms ;
+}
+@keyframes a2{
+10%{
+    top: 370px;
+  }20%{
+    top: 370px;
+  }30%{
+    top: 370px;
+  }40%{
+    top: 370px;
+  }50%{
+    top: 370px;
+  }
+  60%{
+    top: 370px;
+  }70%{
+    top: 370px;
+  }80%{
+    top: 370px;
+  }90%{
+    top: 370px;
+  }
+  100%{
+    top: 370px;
   }
   
 }
-#obstacle3{
-  height :20px;
-  width:20px;
-  background-color:red;
-   position: relative;
-   top:230px;
-   left:530px;
-   animation: e 2s infinite linear;
-}
-@keyframes e {
-  0%{
-    left: 630px;                                                           
-  }
-  100%{
-    left: -200px;
-  }
-}
-#obstacle4{
-  height :20px;
-  width:20px;
-  background-color:red;
-   position: relative;
-   top:275px;
-   left:530px;
-   animation: e 2s infinite linear;
-}
-@keyframes e {
-  0%{
-    left: 530px;                                                           
-  }
-  100%{
-    left: -300px;
-  }
-}
-
-
-#character{
-height: 25px;
-width :25px;
-background-color: blue;
-position: relative;
-top:292px;
-left:0px;
-}
-.animation2{
-  animation: d 500ms;
-}
-@keyframes d{
-  10%{
-    top:350px;
-  }
-  20%{
-    top:350px;
-  } 
-  30%{
-    top:350px;
-  }40%{
-    top:350px;
-  }50%{
-    top:350px;
-  }60%{
-    top:350px;
-  }70%{
-    top:350px;
-  }
-  80%{
-    top:350px;
-  }90%{
-    top:350px;
-  }100%{
-    top:350px;
-  }
-}
 .animation1{
-  animation: c 500ms;
+  animation: a1 600ms ;
 }
-@keyframes c{
-  10%{
-    top:222.5px;
-  }
-  20%{
-    top:222.5px;
-  } 
-  30%{
-    top:222.5px;
+@keyframes a1{
+10%{
+    top: 270px;
+  }20%{
+    top: 270px;
+  }30%{
+    top: 270px;
   }40%{
-    top:222.5px;
+    top: 270px;
   }50%{
-    top:222.5px;
-  }60%{
-    top:222.5px;
-  }70%{
-    top:222.5px;
+    top: 270px;
   }
-  80%{
-    top:222.5px;
+  60%{
+    top: 270px;
+  }70%{
+    top: 270px;
+  }80%{
+    top: 270px;
   }90%{
-    top:222.5px;
-  }100%{
-    top:222.5px;
+    top: 270px;
+  }
+  100%{
+    top: 270px;
   }
 }
 .up{
+ height:150px;
+ width: 150px;
+ background-color:black;
+ color:white;
+ font-size:50pt;
  position: relative;
-  top:400px;
-  height:100px;
-  width:100px;
-  background:black;
-  color:white;
+ top: 300px;
 }
 .down{
+height:150px;
+ width: 150px;
+ background-color: black;
+ color:white;
+ font-size:45pt;
  position: relative;
-  top:400px;
-  right:-140px;
-  height:100px;
-  width:100px;
-  background:black;
-  color:white;
+ top: 300px;
+ left: 40px;
 }
+
+#obstacle1{
+  height:20px;
+  width:20px;
+   background-color: black;
+  position: relative;
+  top:300px;
+  left: 330px;
+  animation: o1 5s infinite linear
+}
+@keyframes o1{
+  0%{
+    left: 330px;
+  }
+  100%{
+    left:-800px;
+  }
+}
+#obstacle2{
+  height:20px;
+  width:20px;
+   background-color: black;
+  position: relative;
+  top:330px;
+  left: 330px;
+animation:   o2 5s infinite linear;
+}
+@keyframes o2{
+  0%{
+    left: 330px;
+  }
+  100%{
+    left:-800px;
+  }
+}
+#obstacle3{
+  height:20px;
+  width:20px;
+   background-color: black;
+  position: relative;
+  top:260px;
+  left: 530px;
+animation:   o3 5s infinite linear;
+}
+@keyframes o3{
+  0%{
+    left: 530px;
+  }
+  100%{
+    left:-600px;
+  }
+}
+#obstacle4{
+  height:20px;
+  width:20px;
+   background-color: black;
+  position: relative;
+  top:190px;
+  left: 530px;
+animation:o4 5s infinite linear;
+}
+@keyframes o4{
+  0%{
+    left: 530px;
+  }
+  100%{
+    left:-600px;
+  }
+}
+#obstacle5{
+  height:20px;
+  width:20px;
+  background-color:black;
+  position: relative;
+  top:170px;
+  left:730px;
+  animation:o5 5s infinite linear;
+}
+@keyframes o5{
+  0%{
+    left: 730px;
+  }
+  100%{
+    left:-400px;
+  }
+}
+#obstacle6{
+  height:20px;
+  width:20px;
+  background-color:black;
+  position: relative;
+  top:250px;
+  left:730px;
+  animation:o6 5s infinite linear;
+}
+@keyframes o6{
+  0%{
+    left: 730px;
+  }
+  100%{
+    left:-400px;
+  }
+}
+#obstacle7{
+  height:20px;
+  width:20px;
+  background-color:black;
+  position: relative;
+  top:180px;
+  left:930px;
+  animation:o7 5s infinite linear;
+}
+@keyframes o7{
+  0%{
+    left: 930px;
+  }
+  100%{
+    left:-200px;
+  }
+}
+#obstacle8{
+  height:20px;
+  width:20px;
+  background-color:black;
+  position: relative;
+  top:210px;
+ left:930px;
+  animation:o8 5s infinite linear;
+}
+@keyframes o8{
+  0%{
+    left: 930px;
+  }
+  100%{
+    left:-200px;
+  }
+}
+#obstacle9{
+  height:20px;
+  width:20px;
+  background-color:black;
+  position: relative;
+  top:140px;
+ left: 1130px;
+animation:o9 5s infinite linear;
+}
+@keyframes o9{
+  0%{
+    left:1130px;
+  }
+  100%{
+    left:00px;
+  }
+}
+#obstacle10{
+  height:20px;
+  width:20px;
+  background-color:black;
+  position: relative;
+  top:70px;
+   left: 1130px;
+animation:o10 5s infinite linear;
+}
+@keyframes o10{
+  0%{
+    left:1130px;
+  }
+  100%{
+    left:00px;
+  }
+    }}
