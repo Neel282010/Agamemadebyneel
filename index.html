@@ -29,8 +29,33 @@
   <button onclick="up()"class="up">up</button>
   <button onclick="down()" class="down">down</button>
   <!-- Project -->
+  <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyB8bREYkOiqZEuyztQ1_AhcpcBdug03Z3k",
+    authDomain: "my-first-project-49c0d.firebaseapp.com",
+    projectId: "my-first-project-49c0d",
+    storageBucket: "my-first-project-49c0d.appspot.com",
+    messagingSenderId: "850177837769",
+    appId: "1:850177837769:web:6789a130f9f6bac0f45b18",
+    measurementId: "G-G1TPZEQTXP"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+    </script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7335078777062029"
-     crossorigin="anonymous"></script>
+     crossorigin="anonymous">
+    
+     </script>
   <script src="main.js"></script>
 </body>
 </html>
