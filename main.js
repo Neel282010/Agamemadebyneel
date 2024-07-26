@@ -13,13 +13,13 @@ var obstacle10= document.getElementById('obstacle10')
 
 function up() {
   character.classList.add('animation1')
-  setTimeout(function() {
+  setTimeout('keyup',function() {
     character.classList.remove('animation1')
   },700)
 }
 function down() {
   character.classList.add('animation2')
-  setTimeout(function() {
+  setTimeout('keydown',function() {
     character.classList.remove('animation2')
   },700)
 }
